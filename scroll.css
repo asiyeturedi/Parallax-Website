@@ -1,0 +1,45 @@
+*{
+    height: 100%;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box ;
+}
+
+.bg{
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img1{ background-image: url(https://lipsum.app/id/15/500x650);}
+.img2{ background-image: url(https://lipsum.app/id/45/500x650);}
+.img3{ background-image: url(https://lipsum.app/id/55/500x650);}
+.img4{ background-image: url(https://lipsum.app/id/65/500x650);}
+.img5{ background-image: url(https://lipsum.app/id/75/500x650);}
+.img6{ background-image: url(https://lipsum.app/id/85/500x650);}
+
+.text{
+
+    position:fixed;
+    top:50%; /* 50% away from top */
+    left:50%;
+    transform: translate(-50%,-50%);/*to place text in the middle */
+    z-index: 3;
+    width: 300px;
+    height:150px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: azure;
+    font-weight: bold;
+    font-size: 70px;
+    border:10px solid white;
+
+
+
+
+}
